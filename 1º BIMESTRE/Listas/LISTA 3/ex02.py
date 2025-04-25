@@ -5,4 +5,4 @@ notaB = float(input("Nota B: "))
 
 media = (notaA * 3.5 + notaB * 7.5) / 11
 
-print(f"MÉDIA: {media:.5f}")
+print(f"MÉDIA = {media:.5f}")
