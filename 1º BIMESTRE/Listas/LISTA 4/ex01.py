@@ -10,4 +10,4 @@ if delta >= 0 and a != 0:
     print(f"R1 = {r1:.5f}")
     print(f"R2 = {r2:.5f}")
 else:
-    print("Impossivel calcular")
+    print("Impossível calcular")
