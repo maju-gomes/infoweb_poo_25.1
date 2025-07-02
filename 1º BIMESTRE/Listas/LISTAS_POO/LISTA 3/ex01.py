@@ -28,8 +28,12 @@ class Retangulo:
         return self.__base * self.__altura 
     
     def calcular_diagonal(self):
-        return math.sqrt(self.__base**2 + self._altura**2)
+        return math.sqrt(self.__base**2 + self.__altura**2)
     
     def __str__(self):
         return f"A base do triângulo é {self.__base} e a altura é igual a {self.__altura}"
 
+
+retangulo = Retangulo(4, 5)
+
+print(retangulo)
