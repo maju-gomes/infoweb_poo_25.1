@@ -5,7 +5,6 @@ class Bingo:
         self.__numBolas = 0
         self.__bolas_sorteadas = []
 
-    # get pra numBolas
     def set_numBolas(self, numBolas):
         if numBolas > 0:
             self.__numBolas = numBolas
@@ -13,13 +12,11 @@ class Bingo:
     def get_numBolas(self):
         return self.__numBolas
     
-    # get pra bolas_sorteadas
     def get_bolas_sorteadas(self):
         return self.__bolas_sorteadas
     
     #MÉTODOS
 
-    # método iniciador 
     def iniciar(self, numBolas):
         self.set_numBolas(numBolas)
         self.__bolas_sorteadas = []
